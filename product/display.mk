@@ -1,10 +1,10 @@
 # Boot animation
-TARGET_SCREEN_HEIGHT :=2160
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT :=1440
+TARGET_SCREEN_WIDTH := 720
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Ambient display
 PRODUCT_PACKAGES += \
@@ -21,5 +21,5 @@ PRODUCT_COPY_FILES += \
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
-    ro.sf.lcd_density=440 \
+    ro.sf.lcd_density=320 \
     qemu.hw.mainkeys=0
