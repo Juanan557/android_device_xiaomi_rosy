@@ -48,6 +48,9 @@ TARGET_KERNEL_CONFIG := lineageos_rosy_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/rosy
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 
+# ANT
+BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
+
 # Audio
 AUDIO_FEATURE_ENABLED_ACDB_LICENSE := true
 AUDIO_FEATURE_ENABLED_ANC_HEADSET := true
