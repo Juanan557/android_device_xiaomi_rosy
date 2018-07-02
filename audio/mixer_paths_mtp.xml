@@ -1138,6 +1138,7 @@
 
     <path name="speaker-and-headphones">
         <path name="speaker" />
+        <ctl name="RX3 Digital Volume" value="84" />
         <path name="headphones" />
     </path>
 
