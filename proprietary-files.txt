@@ -1003,8 +1003,6 @@ etc/firmware/a530v3_seq.fw2
 
 # Ipacm
 bin/ipacm-diag
--bin/ipacm
-etc/IPACM_cfg.xml
 
 # Keystore
 vendor/lib/hw/keystore.msm8953.so
