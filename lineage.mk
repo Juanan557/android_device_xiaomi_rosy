@@ -23,3 +23,7 @@ PRODUCT_NAME := lineage_rosy
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT="xiaomi/rosy/rosy:7.1/N2G47H/V9.6.3.0.NDAMIFD:user/release-keys" \
+    PRIVATE_BUILD_DESC="rosy-user 7.1 N2G47H V9.6.3.0.NDAMIFD release-keys"
