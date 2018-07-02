@@ -10,7 +10,7 @@ vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libfastcvopt.so
 
 # ADSP modules
-vendor/lib/rfsa/adsp/dirac_resource.dar.so
+vendor/lib/rfsa/adsp/dirac_resource.dar
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
@@ -58,8 +58,11 @@ vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudiodevarb.so
 vendor/lib/libhwdaphal.so
 vendor/lib64/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
+vendor/lib/soundfx/libqcvirt.so
 
 # Audio ACDB
 etc/acdbdata/adsp_avs_config.acdb
@@ -1148,6 +1151,7 @@ bin/imsqmidaemon
 etc/permissions/imscm.xml
 framework/imscmlibrary.jar
 -vendor/app/ims/ims.apk
+framework/rcsimssettings.jar
 -vendor/app/imssettings/imssettings.apk
 vendor/lib64/lib-dplmedia.so
 vendor/lib64/lib-ims-rcscmjni.so
@@ -1170,6 +1174,8 @@ vendor/lib64/lib-rtpdaemoninterface.so
 vendor/lib64/lib-rtpsl.so
 vendor/lib64/libimscamera_jni.so
 vendor/lib64/libimsmedia_jni.so
+vendor/lib/libimscamera_jni.so
+vendor/lib/libimsmedia_jni.so
 vendor/lib64/librcc.so
 vendor/lib64/libvoice-svc.so
 
