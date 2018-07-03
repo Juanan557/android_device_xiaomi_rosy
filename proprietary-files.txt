@@ -883,9 +883,6 @@ vendor/lib64/libtzdrmgenprov.so
 # lib64/libfpnav.so
 # lib64/libfpservice.so
 
-# FM
-bin/fm_qsoc_patches
-
 # Gatekeeper
 vendor/lib/hw/gatekeeper.msm8953.so
 vendor/lib64/hw/gatekeeper.msm8953.so
