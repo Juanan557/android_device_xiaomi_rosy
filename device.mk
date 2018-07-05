@@ -140,7 +140,6 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    fingerprint.msm8953 \
     fingerprintd
 
 PRODUCT_PROPERTY_OVERRIDES += \
